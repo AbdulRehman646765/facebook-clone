@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+.main-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f0f2f5;
+  height: 720px;
+}
+.fbimg {
+  margin-top: -115px;
+  margin-left: 50px;
+}
+.fbimg img {
+  width: 300px;
+  height: 106px;
+  margin-left: -28px;
+}
+.fbimg p {
+  margin-top: -10px;
+  font-size: 28px;
+  width: 500px;
+  height: 106px;
+  color: #1c1e21;
+}
+h4 {
+  font-size: 24px;
+  color: #0866ff;
+  margin-left: 2px;
+}
+h5{
+  margin-left: 5px;
+  margin-top: 10px;
+  color: #1c1e21;
+    font-size: 17px;
+}
+.child {
+  margin-top: -60px;
+  margin-left: -199px;
+  margin-right: 40px;
+}
+.inside-child {
+  height: 349px;
+  width: 395px;
+  background: #ffffff;
+  padding: 14px 10px 0 10px;
+  border-radius: 8px;
+  display: grid;
+  place-items: center;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1),
+    0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+}
+input[type="email"],
+input[type="password"] {
+  width: 364px;
+  height: 52px;
+  outline: none;
+  border: 1px solid #dddfe2;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: 780;
+  padding-left: 16px;
+  margin: -3px 0px;
+}
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border: 1px solid #1b74e4;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 255, 0.1),
+  0px 4px 16px 0px rgba(0, 0, 255, 0.1);
+}
+input[type="submit"] {
+  width: 364px;
+  height: 50px;
+  font-size: 18.5px;
+  font-weight: 780;
+  outline: auto;
+  border: none;
+  border-radius: 8px;
+  background-color: #1877f2;
+  color: white;
+  cursor: pointer;
+}
+.inside-child .forgot {
+  width: 100%;
+  font-weight: 520;
+  text-align: center;
+}
+a:hover {
+  text-decoration: underline;
+}
+.inside-child .forgot a {
+  color: #1877f2;
+  font-size: 13.6px;
+}
+.line {
+  width: 96%;
+  height: 1px;
+  background-color: #dadde1;
+}
+.create {
+  padding: 10px 0 15px 0;
+}
+.create button {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #3fbd26;
+  color: white;
+  width: 193px;
+  height: 48px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.text {
+  text-align: center;
+  margin-top: 30px;
+}
+.text span {
+  font-size: 14px;
+}
+.text a {
+  color: #1c1e21;
+  font-size: 14px;
+  font-weight: bold;
+}
+.footer {
+  display: grid;
+  align-items: center;
+  gap: 20px;
+}
+.links-menu {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  margin-left: 141px;
+  padding-top: 4px;
+}
+.links-menu a {
+  font-size: 12px;
+  color: #8a8d91;
+}
+.lang {
+  margin-top: 5px;
+}
+.links-menu button {
+  background-color: #f5f6f7;
+  color: #464f56;
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 1.5px;
+  outline: none;
+  border: 1px solid #ccd0d5;
+  border-radius: 3px;
+  width: 30px;
+  height: 20px;
+}
+.line1 {
+  width: 980px;
+  height: 1px;
+  background-color: #dadde1;
+  margin-left: 142px;
+  margin-top: -32px;
+}
+.links-menu1 {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-left: 127px;
+  margin-top: -26px;
+}
+.links-menu1 a {
+  font-size: 12px;
+  color: #8a8d91;
+  margin-left: 16px;
+}
+.meta p {
+  font-size: 11px;
+  color: #8a8d91;
+  margin-left: 143px;
+  margin-top: 5px;
+}
